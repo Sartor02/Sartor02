@@ -30,12 +30,10 @@ Hi! I’m **Alessandro Sartore**, a MSc student in Artificial Intelligence Syste
 
 ---
 
-## 📈 My stats
+## 📈 Badges
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Sartor02&show_icons=true&theme=radium" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sartor02&layout=compact&theme=radium" alt="Top Languages" />
-  <br><br>
+  <img src="https://github-readme-stats-fast.vercel.app/api/streak/?username=Sartor02&theme=dark&show_icons=true" alt="GitHub Stats" />
   <a href="https://www.codewars.com/users/Sartor02">
     <img src="https://www.codewars.com/users/Sartor02/badges/large" alt="Codewars Badge"/>
   </a>
@@ -414,10 +412,6 @@ I developed the complete product stack, covering both frontend and backend devel
 **🎯 What it is**
 > A comprehensive study and benchmarking of state-of-the-art Multi-Agent Path Finding algorithms (such as CBS, ICR, ICTS, and $X^*$), applied to a real-world industrial warehouse scenario to optimize collision-free routing for autonomous agents.
 
-<div align="center">
-  <img src="https://via.placeholder.com/800x400.png?text=MAPF+Algorithms+Benchmarking" alt="MAPF Benchmarking Preview" width="100%">
-</div>
-<br>
 
 **👨‍💻 What I did**
 I integrated the advanced $X^*$ algorithm into the university's Multi-Agent Open Framework (MAOF) using C++. I then designed and executed an extensive testing pipeline to compare its performance—analyzing memory usage, execution time, and success rate—against other algorithms, automating the data extraction and visualization with Python.
