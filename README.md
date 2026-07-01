@@ -64,6 +64,7 @@ Hi! I’m **Alessandro Sartore**, a MSc student in Artificial Intelligence Syste
   <img src="https://img.shields.io/badge/React-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" alt="React"/>
   <img src="https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white" alt="PyTorch" />
   <img src="https://img.shields.io/badge/ONNX_Runtime-blue?style=for-the-badge&logo=onnx&logoColor=white" alt="ONNX" />
+<img src="https://img.shields.io/badge/Label_Studio-%23000000.svg?style=for-the-badge&logo=labelstudio&logoColor=white" alt="Label Studio" />
   <img src="https://img.shields.io/badge/Qt-41CD52?style=for-the-badge&logo=qt&logoColor=white" alt="Qt" />
 </p>
 
