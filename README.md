@@ -54,6 +54,7 @@ Hi! I’m **Alessandro Sartore**, a MSc student in Artificial Intelligence Syste
   <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js" />
   <img src="https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB" />
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
+  <img src="https://img.shields.io/badge/ONNX%20Runtime-blue?style=for-the-badge&logo=onnx&logoColor=white" alt="ONNX Runtime" />
 </p>
 
 ---
@@ -73,6 +74,7 @@ Hi! I’m **Alessandro Sartore**, a MSc student in Artificial Intelligence Syste
 *   [ScorlenTicket - Database Management Dashboard](#️-scorlenticket---database-management-dashboard)
 
 ### 🦀 Edge AI & Embedded Systems
+*   [Industrial Edge AI Visual Inspection](#-industrial-edge-ai-visual-inspection)
 *   [BlueCrabNet - Edge AI Invasive Species Detection](#-bluecrabnet---edge-ai-invasive-species-detection)
 
 ### ⚙️ Algorithms & Data Analysis
@@ -358,6 +360,51 @@ I built a secure, role-based administrative dashboard that acts as the control c
 
 **🔗 Links**
 *   [🌍 Live Demo](https://database-manager-two.vercel.app/)
+
+---
+
+### 🏭 Industrial Edge AI Visual Inspection
+![Status](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge)
+
+**🎯 What it is**
+> A high-performance industrial inspection ecosystem designed for real-time defect detection on production lines. The system utilizes a dual-stage architecture—combining unsupervised Anomaly Detection and supervised Deep Learning Classification—to localize and identify manufacturing defects with high precision on standard edge hardware.
+
+<div align="center">
+<img src="sources/anomaly/anomaly01.png" width="100%">
+<table>
+  <tr>
+    <td><img src="sources/anomaly/anomaly02.png" width="100%"></td>
+    <td><img src="sources/anomaly/anomaly03.png" width="100%"></td>
+  </tr>
+  <tr>
+    <td><img src="sources/anomaly/anomaly04.png" width="100%"></td>
+    <td><img src="sources/anomaly/anomaly05.png" width="100%"></td>
+  </tr>
+  <tr>
+    <td><img src="sources/anomaly/anomaly06.png" width="100%"></td>
+    <td><img src="sources/anomaly/anomaly07.png" width="100%"></td>
+  </tr>
+</table>
+</div>
+<br/>
+
+**👨‍💻 What I did**
+I engineered a production-grade inspection pipeline by integrating **Anomalib** for unsupervised anomaly localization and **MobileNetV2** for supervised defect classification. I decoupled the training environment from the inference engine by exporting models into **ONNX** format and optimizing them with **OpenVINO**, enabling real-time deployment on edge CPUs without the need for dedicated GPUs. I also developed a custom Streamlit-based GUI to manage inspection recipes, calibrate threshold-based anomaly detection via 3-Sigma statistics, and visualize defect instances using real-time pixel-level segmentation.
+
+**✨ Key Features**
+*   **Dual-Stage Pipeline:** Implemented an anomaly-driven architecture where Anomalib identifies potential defects, followed by a classifier that labels them, eliminating the need for dense pixel-level annotation.
+*   **Edge-Ready Optimization:** Leveraged **ONNX Runtime** and **OpenVINO** to maximize CPU inference performance, achieving sub-second latency suitable for high-speed production lines.
+*   **Framework Agnostic:** Utilized Anomalib to easily experiment with multiple SOTA anomaly detection algorithms (e.g., PatchCore, Padim) within the same pipeline.
+*   **Dynamic Class Visualization:** Implemented custom color-coded masks for instance segmentation, allowing operators to distinguish between different defect types instantly.
+*   **Real-time Data Streaming:** Integrated ZMQ-based high-speed camera streaming for continuous inspection and automated logging of defect events.
+
+**🛠️ What I used**
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white)
+![ONNX Runtime](https://img.shields.io/badge/ONNX%20Runtime-blue?style=for-the-badge&logo=onnx&logoColor=white)
+![OpenVINO](https://img.shields.io/badge/OpenVINO-F7931E?style=for-the-badge&logo=openvino&logoColor=white)
+![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white)
 
 ---
 
