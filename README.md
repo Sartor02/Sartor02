@@ -34,6 +34,7 @@ Hi! I’m **Alessandro Sartore**, a MSc student in Artificial Intelligence Syste
 
 <p align="center">
   <img src="https://github-readme-stats-fast.vercel.app/api/streak/?username=Sartor02&theme=dark&show_icons=true" alt="GitHub Stats" />
+  <br>
   <a href="https://www.codewars.com/users/Sartor02">
     <img src="https://www.codewars.com/users/Sartor02/badges/large" alt="Codewars Badge"/>
   </a>
@@ -44,20 +45,44 @@ Hi! I’m **Alessandro Sartore**, a MSc student in Artificial Intelligence Syste
 ## 🛠️ Skills & Tools
 
 <p align="center">
+  <!-- Languages -->
   <img src="https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++" />
   <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" alt="Python" />
   <img src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white" alt="PyTorch" />
-  <img src="https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white" alt="OpenCV" />
-  <img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" alt="React" />
-  <img src="https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js" />
-  <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white" alt="C#" />
+  <img src="https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white" alt="C" />
+</p>
+<p align="center">
+  <!-- Databases -->
   <img src="https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
-  <img src="https://img.shields.io/badge/ONNX%20Runtime-blue?style=for-the-badge&logo=onnx&logoColor=white" alt="ONNX Runtime" />
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
+  <img src="https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQLite" />
+</p>
+<p align="center">
+  <!-- AI, Frameworks & Industry -->
+  <img src="https://img.shields.io/badge/React-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" alt="React"/>
+  <img src="https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white" alt="PyTorch" />
+  <img src="https://img.shields.io/badge/ONNX_Runtime-blue?style=for-the-badge&logo=onnx&logoColor=white" alt="ONNX" />
+  <img src="https://img.shields.io/badge/Qt-41CD52?style=for-the-badge&logo=qt&logoColor=white" alt="Qt" />
 </p>
 
----
+<p align="center">
+  <!-- DevOps, Cloud & CI/CD -->
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
+  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white" alt="CI/CD" />
+  <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel" />
+  <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white" alt="AWS" />
+  <img src="https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=cloudflare&logoColor=white" alt="Cloudflare" />
+</p>
+  
+<p align="center">
+  <!-- Tools & OS -->
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux" />
+  <img src="https://img.shields.io/badge/CMake-064F8C?style=for-the-badge&logo=cmake&logoColor=white" alt="CMake" />
+  <img src="https://img.shields.io/badge/Testing-Catch2-%23689f38?style=for-the-badge" alt="Catch2/CTest" />
+</p>
 
 ## 🗂️ Project Portfolio
 
@@ -173,7 +198,7 @@ I conducted a comprehensive benchmarking study comparing the classic Viola-Jones
 ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
 
 **🔗 Links**
-*   [💻 Source Code](https://github.com/Sartor02/Face_Blurring_Project)
+*   [💻 Source Code](https://github.com/Seba-T/face-blurrer)
 
 ---
 
@@ -211,7 +236,7 @@ I collaborated to build both a standalone agent and a multi-agent system. For th
 ![PDDL](https://img.shields.io/badge/PDDL-005F8F?style=for-the-badge&logo=prolog&logoColor=white)
 
 **🔗 Links**
-*   [💻 Source Code](https://github.com/Sartor02/Autonomous_Software_Agents)
+*   [💻 Source Code](https://github.com/Sartor02/Autonomus_Software_Agents)
 
 ---
 
