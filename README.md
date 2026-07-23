@@ -512,4 +512,6 @@ I integrated the advanced $X^*$ algorithm into the university's Multi-Agent Open
   <p><i>"Optimization is the key to both code and training."</i></p>
   <p><b>Alessandro Sartore</b></p>
   <a href="mailto:alessandrosartore02@gmail.com">📫 Let's connect!</a>
+  <br><br>
+  <img src="https://komarev.com/ghpvc/?username=Sartor02&color=blueviolet&style=flat-square&label=Profile+Views" alt="Profile views" />
 </div>
