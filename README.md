@@ -92,6 +92,7 @@ Hi! I’m **Alessandro Sartore**, a MSc student in Artificial Intelligence Syste
 *   [Proto-CLIP with Generalized vMF Loss](#-proto-clip-with-generalized-vmf-loss)
 *   [Face Blurring & Detection Analysis](#-face-blurring--detection-analysis)
 *   [Autonomous Software Agents](#-autonomous-software-agents)
+*   [CardGraderAI v2.0 Pro](#-cardgraderai-v20-pro)
 
 ### 🌐 Full-Stack Web Development & SaaS
 *   [Schönblick Bellavista - Alpine Hotel Web Experience](#️-schönblick-bellavista---alpine-hotel-web-experience)
@@ -241,6 +242,42 @@ I collaborated to build both a standalone agent and a multi-agent system. For th
 
 ---
 
+### 🃏 CardGraderAI v2.0 Pro
+![Status](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge)
+
+**🎯 What it is**
+> An enterprise-grade open-source web application designed for TCG collectors (Pokémon, Yu-Gi-Oh!, Magic: The Gathering). Powered by advanced Computer Vision, it simulates condition grades for major authentication companies (PSA, BGS, CGC) and calculates post-grading ROI.
+
+<div align="center">
+  <img src="sources/grader/grader01.png" width="49%">
+  <img src="sources/grader/grader02.png" width="49%">
+  <br>
+  <img src="sources/grader/grader03.png" width="49%">
+  <img src="sources/grader/grader04.png" width="49%">
+</div>
+<br>
+
+**👨‍💻 What I did**
+I engineered an end-to-end full-stack platform featuring a high-performance FastAPI backend and a responsive mobile-first frontend. I developed an advanced Computer Vision pipeline utilizing OpenCV for automatic 4-corner perspective warping, precision margin analysis, high-resolution 400% corner inspection, and high-pass spatial frequency filtering to generate defect heatmaps.
+
+**✨ Key Features**
+*   **Perspective Correction & Warping:** Automatic card detection and 750x1050 px rectification on any table surface.
+*   **Defect Heatmap ("X-Ray Vision"):** Spatial high-pass filtering and Gaussian absolute difference to highlight surface scratches and edge wear.
+*   **Multi-Company Evaluation Matrix:** Cross-evaluates conditions against PSA, BGS, and CGC grading standards with subgrade analysis.
+*   **Multi-Language i18n:** Built-in localization supporting 6 languages (EN, IT, ES, DE, FR, JP).
+*   **Modern Tooling:** Built with Python 3.11+, FastAPI, and optimized package management via `uv`.
+
+**🛠️ What I used**
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+
+**🔗 Links**
+*   [💻 Source Code](https://github.com/Sartor02/CardGraderAI)
+
+---
+
 ### 🏔️ Schönblick Bellavista - Alpine Hotel Web Experience
 ![Status](https://img.shields.io/badge/Status-In_Progress-orange?style=for-the-badge)
 
@@ -279,7 +316,6 @@ I built the entire web experience from the ground up, creating a multilingual, a
 ![Resend](https://img.shields.io/badge/Resend-000000?style=for-the-badge&logo=resend&logoColor=white)
 
 **🚧 Still in progress**
-*   **Booking System:** Implementing a backend service to store and manage reservations in a **MongoDB** database.
 *   **Alpine Live View:** Connecting a **Raspberry Pi** with a camera to the server to provide users with a live view of the Val Martello landscape directly on the website.
 
 **🔗 Links**
@@ -288,30 +324,41 @@ I built the entire web experience from the ground up, creating a multilingual, a
 ---
 
 ### 🗓️ Schönblick Reservation Manager (RAG-Enabled)
-![Status](https://img.shields.io/badge/Status-In_Progress-orange?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge)
 
 **🎯 What it is**
-> An intelligent administrative dashboard built for *Schönblick Bellavista* to visualize and manage booking reservations. It features a RAG (Retrieval-Augmented Generation) system, allowing hotel hosts to query their reservation database using natural language to quickly find specific guest data or booking trends.
+> An intelligent full-stack administrative dashboard built for *Schönblick Bellavista* to visualize and manage booking reservations. It features a RAG (Retrieval-Augmented Generation) system powered by Google Gemini, allowing hotel hosts to query their reservation database in real time using natural language to retrieve guest data, booking trends, and financial metrics.
+
+<div align="center">
+  <img src="sources/calendar/calendar01.png" width="49%">
+  <img src="sources/calendar/calendar02.png" width="49%">
+  <br>
+  <img src="sources/calendar/calendar03.png" width="49%">
+  <img src="sources/calendar/calendar04.png" width="49%">
+</div>
 <br>
 
+> ⚠️ **Note:** The data displayed in the images is not real and has been used solely for demonstrative purposes to maintain client privacy.
+
+
 **👨‍💻 What I did**
-I am developing a full-stack system that connects a responsive calendar interface with a secure backend. I implemented a RAG pipeline that indexes MongoDB reservation data, enabling the hotel staff to perform complex searches and gain insights from their bookings through an AI-powered conversational interface.
+I engineered an end-to-end reservation management system connecting an interactive Gantt calendar with a secure MongoDB Atlas backend. I developed an automated Web Inquiry & Drafts pipeline that seamlessly integrates with the hotel website (`BellaVista`), routing incoming multilingual booking requests directly into an admin approval inbox. Furthermore, I built a real-time AI RAG Assistant (Google Gemini) for natural language database querying and designed an operational print summary system for weekly dinner planning.
 
 **✨ Key Features**
-*   **Intelligent RAG Search:** Leverages LLMs and vector search on MongoDB to allow hosts to ask questions like: *"How many guests are arriving next weekend?"* or *"Show me all bookings for the Junior Suite in August."*
-*   **Dynamic Reservation Management:** A complete CRUD interface for adding, updating, and removing reservations with real-time calendar synchronization.
-*   **Secure Role-Based Access:** Protected by a secure authentication layer, ensuring that sensitive guest data is accessible only to authorized hotel staff.
-*   **Intuitive Visualization:** Calendar-based UI to provide an instant overview of room occupancy and upcoming events.
+*   **Gantt Room Allocation Grid:** Interactive timeline view for managing 15 hotel rooms & apartments with real-time overlap validation, occupancy statistics, and category filtering (Single, Double, Triple, Apartments).
+*   **AI RAG Assistant (Google Gemini):** Natural language database search interface enabling hotel staff to execute real-time MongoDB queries (e.g., *"Who arrives today?"*, *"July revenue"*, *"Show notes for John Smith"*).
+*   **Automated Web Drafts & Multilingual Booking Integration:** Direct API sync with the hotel website (`BellaVista`), auto-detecting language (EN, DE, IT) and board type (B&B vs. Half Board) with a 1-click allocation workflow.
+*   **Weekly Operations & Dinner Count Engine:** Automated print summary system calculating daily guest counts, half-board vs B&B breakdown for dinner planning, and operational summaries.
+*   **Full CRUD & Overlap Guard:** Complete reservation management with multi-room booking capability, extra bed toggles, and instant conflict checks.
 
 **🛠️ What I used**
 ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
+![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
+![Chakra UI](https://img.shields.io/badge/chakra-%234ED1C5.svg?style=for-the-badge&logo=chakraui&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
 ![Node JS](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
-![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
-![AI/RAG](https://img.shields.io/badge/RAG_AI-6C3483?style=for-the-badge&logo=openai&logoColor=white)
+![Google Gemini](https://img.shields.io/badge/Google_Gemini-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white)
 
-**🚧 Still in progress**
-*   Refining the vector embeddings for more precise natural language queries on reservation notes and guest preferences.
 
 ---
 
