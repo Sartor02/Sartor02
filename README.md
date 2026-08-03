@@ -33,8 +33,8 @@ Hi! I’m **Alessandro Sartore**, a MSc student in Artificial Intelligence Syste
 ## 📈 Badges
 
 <p align="center">
-  <img src="https://github-readme-stats-fast.vercel.app/api/streak/?username=Sartor02&theme=dark&show_icons=true" alt="GitHub Stats" />
-  <br>
+  <!-- <img src="https://github-readme-stats-fast.vercel.app/api/streak/?username=Sartor02&theme=dark&show_icons=true" alt="GitHub Stats" />
+  <br> -->
   <a href="https://www.codewars.com/users/Sartor02">
     <img src="https://www.codewars.com/users/Sartor02/badges/large" alt="Codewars Badge"/>
   </a>
@@ -106,6 +106,7 @@ Hi! I’m **Alessandro Sartore**, a MSc student in Artificial Intelligence Syste
 *   [BlueCrabNet - Edge AI Invasive Species Detection](#-bluecrabnet---edge-ai-invasive-species-detection)
 
 ### ⚙️ Algorithms & Data Analysis
+*   [Master's Thesis: Edge-Based Anomaly Detection: Optimizing PatchCore for Industry 4.0](#-masters-thesis-edge-based-anomaly-detection-optimizing-patchcore-for-industry-40)
 *   [Bachelor's Thesis: Multi-Agent Path Finding (MAPF) Analysis](#-bachelors-thesis-multi-agent-path-finding-mapf-analysis)
 
 ---
@@ -131,7 +132,7 @@ I developed a Multi-Scale Temporal architecture to bridge the generalization gap
 *   **Wavelet Blending:** Implemented Discrete Wavelet Transform (DWT) to swap high-frequency components between real and fake videos, creating "Clean Fakes" to force the model to learn semantic motion rather than simple compression shortcuts.
 *   **Explainability:** Conducted Stationary Wavelet Transform (SWT) analysis to uncover how the energy profiles of sophisticated fakes mimic real videos in mid-frequency bands.
 
-**🛠️ What I used**
+**🛠️ What I used**<br>
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white)
@@ -162,7 +163,7 @@ I worked on the end-to-end reimplementation of Proto-CLIP, introducing a prototy
 *   **Ablation Studies:** Conducted targeted experiments to evaluate the impact of Mix-Up augmentation and prototype-dispersion regularizers on the harmonic mean.
 *   **Mathematical Modeling:** Utilized the Bhattacharyya distance coefficient to quantify class overlap on the hypersphere.
 
-**🛠️ What I used**
+**🛠️ What I used**<br>
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white)
 ![CLIP](https://img.shields.io/badge/OpenAI_CLIP-74aa9c?style=for-the-badge&logo=openai&logoColor=white)
@@ -194,7 +195,7 @@ I conducted a comprehensive benchmarking study comparing the classic Viola-Jones
 *   **Privacy Filters:** Implemented multiple anonymization techniques, including natural-looking Gaussian blur and high-security Median blur.
 *   **Interactive Pipeline:** Developed a Jupyter Notebook providing a step-by-step guide to loading models and applying real-time video blurring.
 
-**🛠️ What I used**
+**🛠️ What I used**<br>
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white)
 ![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white)
@@ -233,7 +234,7 @@ I collaborated to build both a standalone agent and a multi-agent system. For th
 *   **Multi-Agent Coordination:** Implemented communication handlers and area managers for task division and handover coordination.
 *   **Advanced Planning:** Integrated a PDDL planner and custom pathfinding logic to optimize parcel selection and delivery strategies.
 
-**🛠️ What I used**
+**🛠️ What I used**<br>
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![Node JS](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 ![PDDL](https://img.shields.io/badge/PDDL-005F8F?style=for-the-badge&logo=prolog&logoColor=white)
@@ -268,7 +269,7 @@ I engineered an end-to-end full-stack platform featuring a high-performance Fast
 *   **Multi-Language i18n:** Built-in localization supporting 6 languages (EN, IT, ES, DE, FR, JP).
 *   **Modern Tooling:** Built with Python 3.11+, FastAPI, and optimized package management via `uv`.
 
-**🛠️ What I used**
+**🛠️ What I used**<br>
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
@@ -309,7 +310,7 @@ I built the entire web experience from the ground up, creating a multilingual, a
 *   **Automated Communication:** Configured Resend for fast, reliable email delivery for inquiries and booking requests.
 *   **Modern UI/UX:** Modular and accessible interface crafted with Chakra UI.
 
-**🛠️ What I used**
+**🛠️ What I used**<br>
 ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
 ![Chakra UI](https://img.shields.io/badge/chakra-%234ED1C5.svg?style=for-the-badge&logo=chakraui&logoColor=white)
@@ -352,7 +353,7 @@ I engineered an end-to-end reservation management system connecting an interacti
 *   **Weekly Operations & Dinner Count Engine:** Automated print summary system calculating daily guest counts, half-board vs B&B breakdown for dinner planning, and operational summaries.
 *   **Full CRUD & Overlap Guard:** Complete reservation management with multi-room booking capability, extra bed toggles, and instant conflict checks.
 
-**🛠️ What I used**
+**🛠️ What I used**<br>
 ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
 ![Chakra UI](https://img.shields.io/badge/chakra-%234ED1C5.svg?style=for-the-badge&logo=chakraui&logoColor=white)
@@ -387,7 +388,7 @@ I built both the frontend and backend architectures from scratch. I designed an 
 *   **Real-time Reservation Management:** Utilized MongoDB to store and manage event details, seat availability, and user bookings effectively.
 *   **Automated Ticketing:** Implemented a backend mailing service using standard Gmail integration to automatically generate and dispatch tickets to users upon successful payment.
 
-**🛠️ What I used**
+**🛠️ What I used**<br>
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 ![Chakra UI](https://img.shields.io/badge/chakra-%234ED1C5.svg?style=for-the-badge&logo=chakraui&logoColor=white)
 ![Node JS](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
@@ -425,7 +426,7 @@ I built a secure, role-based administrative dashboard that acts as the control c
 *   **Reservation Oversight:** Provided a centralized view to monitor, manage, and edit bookings stored in MongoDB.
 *   **Intuitive UI/UX:** Built with React and Chakra UI to ensure a clean, efficient workflow for administrators handling high volumes of data.
 
-**🛠️ What I used**
+**🛠️ What I used**<br>
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 ![Chakra UI](https://img.shields.io/badge/chakra-%234ED1C5.svg?style=for-the-badge&logo=chakraui&logoColor=white)
 ![Node JS](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
@@ -472,7 +473,7 @@ I engineered a production-grade inspection pipeline by integrating **Anomalib** 
 *   **Dynamic Class Visualization:** Implemented custom color-coded masks for instance segmentation, allowing operators to distinguish between different defect types instantly.
 *   **Real-time Data Streaming:** Integrated ZMQ-based high-speed camera streaming for continuous inspection and automated logging of defect events.
 
-**🛠️ What I used**
+**🛠️ What I used**<br>
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white)
 ![ONNX Runtime](https://img.shields.io/badge/ONNX%20Runtime-blue?style=for-the-badge&logo=onnx&logoColor=white)
@@ -515,7 +516,7 @@ I developed the complete product stack, covering both frontend and backend devel
 *   **Recognition & Analytics:** Delivered a robust system capable of real-time recognition with high accuracy, ensuring reliable field data.
 *   **Award-Winning Innovation:** Recognized as a winner at the **VenetoStars 2026** competition for technological excellence in environmental monitoring.
 
-**🛠️ What I used**
+**🛠️ What I used**<br>
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![YOLO](https://img.shields.io/badge/YOLO-00FFFF?style=for-the-badge&logo=yolo&logoColor=black)
 ![Edge AI](https://img.shields.io/badge/Edge_AI-FF0000?style=for-the-badge&logo=cpu&logoColor=white)
@@ -526,6 +527,35 @@ I developed the complete product stack, covering both frontend and backend devel
 *   [🏆 VenetoStars 2026 Winners](https://venetostars.com/#winners-2026)
 
 ---
+
+### 🎓 Master's Thesis: Edge-Based Anomaly Detection: Optimizing PatchCore for Industry 4.0
+![Status](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge)
+
+**🎯 What it is**
+> An end-to-end industrial visual inspection system engineered for Zero-Defect Manufacturing on constrained Edge AI hardware. Designed for high-speed continuous cable production at WTM, it accelerates the state-of-the-art PatchCore anomaly detection model for real-time inference on the AMD Kria KV260 SOM and DeepX DX-M1 NPU.
+
+**👨‍💻 What I did**
+I dismantled the computational bottlenecks of PatchCore's memory bank to transition it from a laboratory model to a production-ready edge application. My optimizations focused on three main axes: topological search approximation, boundary-aware coreset compression, and hardware-aware compilation. I also built a dockerized GUI with Streamlit and FastAPI featuring automated 3-sigma threshold calibration, enabling non-expert factory operators to train and deploy models seamlessly.
+
+**✨ Key Features**
+*   **Topological Search Approximation:** Replaced exact linear k-NN search with Hierarchical Navigable Small World (HNSW) graphs, reducing search complexity from linear to $O(\log m)$.
+*   **Hard Prototype Mining (HPM):** Engineered a novel subsampling algorithm targeting "hard" prototypes near the decision boundary, compressing the memory bank to just 5% of its original size while preserving accuracy.
+*   **Hardware-Aware Compilation:** Orchestrated PyTorch-to-ONNX conversion, INT8 Post-Training Quantization, and aggressive Operator Fusion specifically for the DeepX NPU's systolic array.
+
+**📈 Measurable Impact**
+*   Transformed a theoretically brilliant but unfeasible baseline (0.7 FPS, >1.5 GB RAM) into a highly efficient production system.
+*   **Primary Solution:** Achieved an optimal **24.81 FPS** and capped dynamic RAM at 125 MB, delivering a 31x speedup over the baseline while maintaining an Image AUROC of 0.9793 on proprietary datasets.
+*   **High-Speed Alternative:** Developed a Reverse Distillation architecture that completely eliminates the memory bank, reaching **66.2 FPS** (55 MB footprint) for extreme line speeds.
+
+**🛠️ What I used**<br>
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C?style=for-the-badge&logo=PyTorch&logoColor=white)
+![ONNX](https://img.shields.io/badge/ONNX-005CED?style=for-the-badge&logo=onnx&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+
+**🔗 Links**
+*   [📄 Thesis Document](sources/MSc_thesis.pdf)
 
 ### 🎓 Bachelor's Thesis: Multi-Agent Path Finding (MAPF) Analysis
 ![Status](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge)
@@ -542,7 +572,7 @@ I integrated the advanced $X^*$ algorithm into the university's Multi-Agent Open
 *   **Industrial Benchmarking:** Evaluated algorithm performance on a topological graph representing a real robotic warehouse with hundreds of nodes and varying numbers of agents.
 *   **Automated Data Pipeline:** Built Python scripts to parse experimental data from Excel files and generate survival and scatter plots for an in-depth comparative analysis.
 
-**🛠️ What I used**
+**🛠️ What I used**<br>
 ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
