@@ -23,7 +23,7 @@
 
 Hi! I’m **Alessandro Sartore**, a MSc student in Artificial Intelligence Systems at the University of Trento, with a strong background in Computer Science and a focus on **Computer Vision and Edge AI**. I love bridging the gap between theoretical research and practical, high-performance industrial applications.
 
-* 🔭 **Currently working at:** [VIDEAM SRL](https://videam.it/) as a Computer Vision & Edge AI Developer.
+* 🔭 **Currently working at:** [AI4I](https://ai4i.it/) as a Computer Vision & AI Engineer.
 * 📈 **Academic focus:** Artificial Intelligence, Edge Computing, and Optimization.
 * 🏋️ **Beyond the code:** I’m a fitness enthusiast who enjoys diving into papers about hypertrophy and nutrition. When I'm not training, I’m listening to **Twenty One Pilots** or practicing the piano.
 * ⚡ **Fun fact:** I treat my code optimizations with the same discipline I apply to my training sessions: efficient, robust, and always improving!
